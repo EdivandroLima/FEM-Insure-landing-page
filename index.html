@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <title>Seguros - Landing Page</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- Normalize -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Estilo -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <nav><!-- Nav -->
+            <div class="container">
+                <div class="row">
+                    <a href="#">
+                        <img src="./img/logo.svg" alt="Seguros">
+                    </a>
+                    <button type="button" onclick="toggle()" class="toggle" aria-controls="menu" aria-expanded="false">
+                        <img src="./img/icon-hamburger.svg" id="icon-menu" alt="Menu">
+                    </button>
+                    <div id="menu"><!-- Menu -->
+                        <ul class="list-menu">
+                            <li><a href="#" class="list-link">Como trabalhamos</a></li>
+                            <li><a href="#" class="list-link">Blog</a></li>
+                            <li><a href="#" class="list-link">Conta</a></li>
+                            <li><a href="#" class="list-link btn">Ver planos</a></li>
+                        </ul>
+                    </div><!--/ Menu -->
+                </div>
+            </div>
+        </nav><!--/ Nav -->
+        <div class="container">
+            <div class="header-content">
+                <div class="header-text">
+                    <span class="barra"></span>
+                    <h1>Humanizando seu seguro.</h1>
+                    <p>
+                        Obtenha sua cobertura de seguro de vida mais fácil e rápido. Combinamos nossa experiência
+                        e tecnologia para ajudá-lo a encontrar o plano certo para você. Garanta que você
+                        e seus entes queridos estão protegidos.
+                    </p>
+                    <a href="#" class="list-link btn btn-white">Ver planos</a>
+                </div>
+                <img src="./img/image-intro-desktop.jpg" alt="Familia" class="header-img">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="info">
+            <div class="container">
+                <span class="barra"></span>
+                <h2>Somos diferentes</h2>
+                <div class="row">
+                    <div>
+                        <img src="./img/icon-snappy-process.svg" alt="Processo ágil">
+                        <h3>Processo ágil</h3>
+                        <p>
+                            Nosso processo de inscrição pode ser concluído em minutos, não em horas. Não entenda
+                            preso preenchendo formulários tediosos.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./img/icon-affordable-prices.svg" alt="Processo ágil">
+                        <h3>Preços acessíveis</h3>
+                        <p>
+                            Não queremos que você se preocupe com os altos custos mensais. Nossos preços podem estar baixos,
+                            mas ainda oferecemos a melhor cobertura possível.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./img/icon-people-first.svg" alt="Processo ágil">
+                        <h3>As pessoas primeiro</h3>
+                        <p>
+                            Nossos planos não estão cheios de condições e cláusulas para impedir pagamentos. Nós fazemos
+                            certifique-se de estar coberto quando precisar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row saiba-mais">
+                <h2>Saiba mais sobre como trabalhamos</h2>
+                <a href="#" class="list-link btn btn-white">Como trabalhamos</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row footer-top"><!-- Row -->
+                <div>
+                    <img src="./img/logo.svg" alt="Logo">
+                </div>
+                <div class="social">
+                    <a href="#" title="Facebook">
+                        <img src="./img/icon-facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="#" title="Twitter">
+                        <img src="./img/icon-twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="#" title="Pinterest">
+                        <img src="./img/icon-pinterest.svg" alt="Pinterest">
+                    </a>
+                    <a href="#" title="Instagram">
+                        <img src="./img/icon-instagram.svg" alt="Instagram">
+                    </a>
+                </div>
+            </div><!--/ Row -->
+            <div class="row footer-links"><!-- Row -->
+                <div>
+                    <h5>Nossa empresa</h5>
+                    <ul class="list-menu">
+                        <li><a href="#" class="footer-link">Como trabalhamos</a></li>
+                        <li><a href="#" class="footer-link">Por que segurar?</a></li>
+                        <li><a href="#" class="footer-link">Ver planos</a></li>
+                        <li><a href="#" class="footer-link">Avaliações</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Ajude-me</h5>
+                    <ul class="list-menu">
+                        <li><a href="#" class="footer-link">Perguntas frequentes</a></li>
+                        <li><a href="#" class="footer-link">Termos de uso</a></li>
+                        <li><a href="#" class="footer-link">Política de Privacidade</a></li>
+                        <li><a href="#" class="footer-link">Biscoitos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Contato</h5>
+                    <ul class="list-menu">
+                        <li><a href="#" class="footer-link">Vendas</a></li>
+                        <li><a href="#" class="footer-link">Apoio, suporte</a></li>
+                        <li><a href="#" class="footer-link">Bate-papo ao vivo</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Outras</h5>
+                    <ul class="list-menu">
+                        <li><a href="#" class="footer-link">Carreiras</a></li>
+                        <li><a href="#" class="footer-link">Pressione</a></li>
+                        <li><a href="#" class="footer-link">Licenças</a></li>
+                        <li><a href="#" class="footer-link">Apoio, suporte</a></li>
+                    </ul>
+                </div>
+            </div><!--/ Row -->
+            <div>
+                <p class="footer-copy">
+                    Desafio do <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                    Codificado por <a href="https://github.com/EdivandroLima" target="_blank">Edivandro Lima</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggle() {
+            let icon = document.getElementById('icon-menu')
+            if (icon.src.indexOf('icon-close.svg') != -1) {
+                icon.src= './img/icon-hamburger.svg'
+                document.getElementById('menu').style.display= 'none'
+                document.body.style.overflowY = 'scroll'
+            }
+            else {
+                icon.src= './img/icon-close.svg'
+                document.getElementById('menu').style.display= 'block'
+                document.body.style.overflowY = 'hidden'
+            }
+        }
+    </script>
+</body>
+</html>
