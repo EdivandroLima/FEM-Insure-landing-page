@@ -292,11 +292,11 @@ nav .row {
 	padding: 50px;
 	margin: 30px 0
 }
-.saiba-mais h2 {
+.saiba-mais h3 {
 	width: 50%;
 	font-size: 50px;
 	color: white;
-	line-height: 1
+	line-height: 1;
 }
 .saiba-mais a {
 	margin-left: auto;
